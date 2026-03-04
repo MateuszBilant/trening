@@ -14,9 +14,14 @@ function dividing(a,b){
   return a/b
 }
 
+function byZero(a){
+  return a/0
+}
+
 module.exports = {
   add,
   subtract,
   multiply,
-  dividing
+  dividing,
+  byZero
 };
