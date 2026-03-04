@@ -6,11 +6,10 @@ function run() {
 
   const a = 10;
   const b = 4;
-  //to musi byc
-  //no i elo
-  console.log(`${a} + ${b} = ${add(a, b)}`);
-  console.log(`${a} - ${b} = ${subtract(a, b)}`);
-  //elo
+  
+  logger.log(`${a} + ${b} = ${add(a, b)}`);
+  logger.log(`${a} - ${b} = ${subtract(a, b)}`);
+
   logger.log("Application finished");
 }
 
