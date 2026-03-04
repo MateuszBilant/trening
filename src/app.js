@@ -1,4 +1,4 @@
-const { add, subtract } = require("./calculator");
+const { add, subtract, multiply } = require("./calculator");
 const logger = require("../utils/logger");
 
 function run() {
@@ -9,6 +9,7 @@ function run() {
   
   logger.log(`${a} + ${b} = ${add(a, b)}`);
   logger.log(`${a} - ${b} = ${subtract(a, b)}`);
+  logger.log(`${a} * ${b} = ${multiply(a, b)}`);
 
   logger.log("Application finished");
 }
