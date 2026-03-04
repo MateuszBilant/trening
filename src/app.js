@@ -7,9 +7,10 @@ function run() {
   const a = 10;
   const b = 4;
   //to musi byc 
+  //skoro musi to wrzuc to logow a nie zostawiaj w konsoli
   console.log(`${a} + ${b} = ${add(a, b)}`);
   console.log(`${a} - ${b} = ${subtract(a, b)}`);
-  //elo
+  //elo elo 320
   logger.log("Application finished");
 }
 
