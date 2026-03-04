@@ -1,0 +1,12 @@
+{
+  "name": "git-node-practice",
+  "version": "1.0.0",
+  "description": "Simple Node.js project for practicing Git",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "node tests/calculator.test.js"
+  },
+  "author": "",
+  "license": "MIT"
+}
