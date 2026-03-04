@@ -6,10 +6,10 @@ function run() {
 
   const a = 10;
   const b = 4;
-  // te konsole logi sa do wyjebania 
+  //to musi byc 
   console.log(`${a} + ${b} = ${add(a, b)}`);
   console.log(`${a} - ${b} = ${subtract(a, b)}`);
-  // dupa dupa wyjeb loggera
+  //elo
   logger.log("Application finished");
 }
 
