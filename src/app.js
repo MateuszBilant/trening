@@ -6,10 +6,10 @@ function run() {
 
   const a = 10;
   const b = 4;
-
+  //to musi byc 
   console.log(`${a} + ${b} = ${add(a, b)}`);
   console.log(`${a} - ${b} = ${subtract(a, b)}`);
-
+  //elo
   logger.log("Application finished");
 }
 
